@@ -1,0 +1,48 @@
+# Project Information
+site_name: PagerDuty Operational Reviews Documentation
+site_description: A collection of information about PagerDuty customers run regular operational reviews with metrics. Not only how to run operational review meetings, but how to prepare, who to invite, and how to make them actionable.
+site_author: PagerDuty, Inc.
+site_favicon: 'assets/img/icon.png'
+site_url: https://reviews.pagerduty.com
+
+# Repository
+repo_url: https://github.com/pagerduty/operational-review-docs
+
+# Copyright
+copyright: 'Copyright &copy; PagerDuty, Inc.'
+
+# Theme
+theme: 'material'
+theme_dir: 'theme'
+extra_css: ['assets/css/extra.css']
+extra_javascript: ['js/github_forks.js']
+extra:
+  logo: 'assets/img/icon.png'
+  cover: 'assets/img/cover.png'
+  palette:
+    primary: 'green'
+    accent: 'blue grey'
+  author:
+    github: 'PagerDuty'
+    twitter: 'PagerDuty'
+
+# Contents
+pages:
+  - Home: 'index.md'
+  - The Reviews:
+    - On-Call Review: 'reviews/oncall.md'
+    - Service Review: 'reviews/service.md'
+    - Business Review: 'reviews/business.md'
+  - Definitions: 'definitions.md'
+  - Using PagerDuty: 'using_pagerduty.md'
+  - Going Beyond: 'going_beyond.md'
+  - About: 'about.md'
+
+# Analytics
+google_analytics: ['UA-8759953-1', 'auto']
+
+# Extensions
+markdown_extensions:
+  - toc(permalink=#)
+  - sane_lists:
+  - admonition:
