@@ -52,7 +52,7 @@ A successful Business Review meeting will allow you to answer most or all of the
 * Was it a good or bad quarter for our digital business?
 * What was the performance against stated SLAs? What was the time without major incident across the organization?
 * How many major incidents did the business experience? Is this figure trending up or down? Which business services suffered the most from incidents?
-* How many customers were impacted by outages (unique count or percent)?
+* How many customers were impacted by major incidents (unique count or percent)?
 * How much revenue was lost or put at risk?
 * Was customer impact equal across business services or are there specific business services that suffer more than others?
 * How much does it typically cost us to resolve a major incident?
