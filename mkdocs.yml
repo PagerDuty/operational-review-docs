@@ -2,7 +2,7 @@
 site_name: PagerDuty Operational Reviews Documentation
 site_description: A collection of information about PagerDuty customers run regular operational reviews with metrics. Not only how to run operational review meetings, but how to prepare, who to invite, and how to make them actionable.
 site_author: PagerDuty, Inc.
-site_favicon: 'assets/img/icon.png'
+site_favicon: 'assets/img/favicon.png'
 site_url: https://reviews.pagerduty.com
 
 # Repository
@@ -14,9 +14,10 @@ copyright: 'Copyright &copy; PagerDuty, Inc.'
 # Theme
 theme: 'material'
 theme_dir: 'theme'
-extra_css: ['assets/css/extra.css']
+extra_css: ['assets/css/pagerduty.css','assets/css/custom.css']
 extra_javascript: ['js/github_forks.js']
 extra:
+  favicon: 'assets/img/favicon.png'
   logo: 'assets/img/icon.png'
   cover: 'assets/img/cover.png'
   palette:
