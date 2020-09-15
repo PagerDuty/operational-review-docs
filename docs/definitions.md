@@ -5,35 +5,27 @@ This documentation uses terms common in digital businesses, but not always stand
 
 **Actionable vs. Unactionable Incidents**
 
-All incidents are either actionable or unactionable. Actionable alerts are when the incident is not a false alarm and some action can be taken by a responder. All other incidents are unactionable.
+All incidents are either actionable or unactionable. Actionable incidents are when the triggering conditions have a clear resolution action that can be taken by a responder. Unactionable incidents are informational false alarms: they convey a system state, but there is nothing for a responder to do other than acknowledging they received a notification of that state.
 
 **Alert**
 
-Alerts are a vehicle for ensuring that the existence of an incident is communicated to responders. Often there is a 1:1 mapping of incident to alert, but not always. There can be multiple alerts per incident if the same issue is noticed by multiple sources or if additional responders need to be alerted about the same issue.
-
-**Business Hours**
-
-The general time that employees are working. Often defined by a broad range of 8 a.m. – 6 p.m., but should follow the norms of each company, region, and office.
+Alerts are a vehicle for ensuring responders are notified of the existence of an incident. In theory, there is a 1:1 mapping of incidents to alerts. But most often, there can be multiple alerts per incident because the same issue may be detected by multiple sources or if additional responders need to be alerted about the same issue.
 
 **Business Service**
 
-A business service is a critical or otherwise important business function of a digital product and is powered by one or more technical services. Businesses services are defined differently by each digital business and are often aligned with product features or capabilities.
-
-**Delivery Team**
-
-Also called a Product Delivery Team, this is a group of people directly responsible for building and/or operating a technical service. Always inclusive of the engineers on the team, delivery teams may also include the team manager, UX Designer, Product Owner, and/or Agile Coach.
+A business service is a critical or otherwise important logical business function of a digital product. Often, that logical function is carried out by a number of underlying technical services. For example, a logical “fulfillment” business service may be represented by various underlying technical services necessary to complete that action such as a shopping cart service, payment service, inventory service, and so on. Businesses services are defined differently by each digital business and are often aligned with product features or capabilities.
 
 **Digital Business**
 
-A digital business is any company or organization whose product value is delivered primarily online, often 24×7 and with great simultaneous scale. Some companies are digital businesses in their entirety, like PagerDuty. Other companies are not digital businesses at first sight, but critical elements of their business rely on software (the cash registers at a restaurant, for example).
-
-**Digital Operations**
-
-This term describes the way a digital business must operate in real time because their product is available 24×7 and can be used simultaneously by a large number of customers—situations where even a short technical issue can have large impact on revenues.
+A digital business is any company or organization whose product value is delivered primarily online, often 24×7 and with great simultaneous scale. Some companies are digital businesses in their entirety, like PagerDuty. Other companies may not seem like digital businesses at a glance, but if critical elements of their business rely on software (the cash registers at a restaurant, for example), then they too are digital businesses.
 
 **Escalation**
 
 An escalation is when the primary on-call does not acknowledge an incident and the alert is escalated to another person. Escalations often happen automatically but can be done manually.
+
+**Full-Service Ownership (FSO)**
+
+Full-service ownership (FSO) is the philosophy that engineers are responsible for the code and services they create in production. Accountability, reliability, and continuous improvement are the main objectives of full-service ownership. 
 
 **High-Urgency Incident**
 
@@ -41,15 +33,11 @@ Any incident that is urgent in nature so that the on-call responder should be in
 
 **Incident**
 
-Any unplanned disruption or degradation of service that is actively affecting customers' ability to use your products. Sometimes there isn’t actually a problem, but we still call any event that triggered an alert an incident. Incidents are both conceptual (`something’s wrong`) and discrete objects (`Incident #26534 on Thursday at 5 p.m.`).
+Any unplanned disruption or degradation of service that is actively affecting a customer's ability to use your product(s). Sometimes there isn’t actually a problem, but we still call any event that triggered an alert an incident. Incidents are both conceptual (“something’s wrong”) and discrete objects (“Incident #26534 on Thursday at 5 p.m.”).
 
-**Incident Response & Major Incident Response**
+**Incident Response**
 
-Incident Response/Major Incident Response is the approach to addressing and managing an incident. The goal isn’t just to solve the incident, but to handle the situation in a way that limits damage and reduces recovery time and costs.
-
-**Interruption**
-
-Interruptions are when an on-call responder is notified by SMS (text), mobile push notification, or phone call. Interruptions do not include notifications via email from an on-call and incident management platform.
+[Incident Response](https://response.pagerduty.com) is the approach used to address and manage incidents. The goal isn’t just to solve the incident, but to handle the situation in a way that limits damage and reduces recovery time and costs.
 
 **Major Incident**
 
@@ -67,11 +55,7 @@ The average across all acknowledged incidents of the time between incident creat
 
 Any software or hardware tool that can monitor the state of a technical service and alert on potential issues or otherwise push information to an on-call and incident management platform.
 
-**Off Hours**
-
-Typically the waking hours outside of work, often defined as 6 p.m. to 10 p.m. Monday through Sunday, and non-sleep hours on Saturday and Sunday. Will vary by company, job role, and more.
-
-**On Call**
+**On-Call**
 
 To go on call means to make oneself available to be notified of any potential software issues and resolve them in real time, at any time during an on-call shift. Engineers usually rotate on-call responsibilities in weeklong shifts where they are available to respond to technical service issues 24×7.
 
@@ -79,21 +63,26 @@ To go on call means to make oneself available to be notified of any potential so
 
 When a responder goes on call, any unplanned work and interruptions they receive is collectively defined as the load they experience. Any on-call load over the expected amount is considered on-call pain.
 
+**Real-Time Operations**
+
+This term encapsulates the way a digital business must operate in real time because their product is available 24×7 and can be used simultaneously by a large number of customers. When incidents occur, service teams must respond quickly—i.e., in real time—because even short technical issues can have prolonged large-scale impact on revenue.
+
 **Responder**
 
-A responder is any team member that responds to an alert from an on-call and incident management platform, and helps  resolve issues with technical services. By definition, the person on call is a responder, but anyone called in to help is also a responder.
+A responder is any team member that responds to an alert from an on-call and/or incident management platform, and helps  resolve issues with technical services. By definition, the person on call is a responder, but anyone called in to help is also a responder.
+
+**Service Team**
+
+This is a group of people directly responsible for building and/or operating a technical service, sometimes also referred to as a product delivery team. This team not only includes the engineers who code, ship, and operate the service in production, they may also include the team manager, UX Designer, Product Owner, Agile Coach, or other roles necessary to support daily team operations.
+
 
 **Service Level Agreement (SLA)**
 
-[Google defines](https://landing.google.com/sre/book/chapters/service-level-objectives.html) SLA as,
+A service-level agreement is an explicit or implicit contract with your customers that includes consequences of meeting (or missing) the specified targets. The consequences are most easily recognized when they are financial—a rebate or a penalty—but they can take other forms. SLAs are used to communicate service availability expectations externally and are tied to business and product decisions.
 
-> An explicit or implicit contract with your users that includes consequences of meeting (or missing) the SLOs they contain.
+**Service Level Objective (SLO)**
 
-An SLO is a Service Level Objective—essentially an internal goal or target.
-
-**Sleep Hours**
-
-Late night and early morning hours, often defined as 10 p.m. through 8 a.m. Monday through Sunday. Will vary by company, job role, and more.
+A service-level objective is a service availability or performance target used to set expectations internally. They can be useful for communicating with the business about desired service performance and to temper unrealistic expectations for extraordinarily high availability. Unlike an SLA, SLOs are typically not published to customers and they carry no customer consequences when unmet.
 
 **Technical Service**
 

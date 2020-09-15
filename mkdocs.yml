@@ -27,17 +27,20 @@ extra:
     github: 'PagerDuty'
     twitter: 'PagerDuty'
 
+# Dev URL
+dev_addr: '0.0.0.0:8080'
+
 # Contents
 pages:
   - Home: 'index.md'
+  - Introduction: 'introduction.md'
   - The Reviews:
     - On-Call Review: 'reviews/oncall.md'
     - Service Review: 'reviews/service.md'
     - Business Review: 'reviews/business.md'
   - Definitions: 'definitions.md'
-  - Using PagerDuty: 'using_pagerduty.md'
-  - Going Beyond: 'going_beyond.md'
-  - About: 'about.md'
+  - Next Steps: 'next_steps.md'
+  - Additional Resources: 'resources.md'
 
 # Analytics
 google_analytics: ['UA-8759953-1', 'auto']

@@ -1,35 +1,59 @@
 ![Operational Reviews](./assets/img/headers/reviews.jpg)
 
-The documentation on this site offers up a framework for how to run operational reviews at digital organizations. It was first put together by listening to PagerDuty's 10,000+ customers and asking them how they measure, or wished to measure, the impact of operations on business outcomes. What we learned was that getting managers together on a regular basis, and from different levels of the organization, to review metrics is a critical aspect to keeping leaders aligned on how the way they operate impacts their ability to reach their business goals. What follows is meant to be a framework for setting up Operational Reviews at your digital business, and it is the framework that PagerDuty is adapting within its own organization. For more information and a detailed background, visit our [About page](/about.md).
+Operational reviews are the practice of regularly gathering metrics with your teams, in a cohesive way across your organization, to drive positive business outcomes. When transforming digital practices, many organizations struggle to quantify and measure their progress in meaningful ways. By gathering and learning from metrics on a regular cadence at every organizational level—practitioner, management, and executive—teams can make better data-driven decisions around improving work in ways that align daily practices with long-term business results. This guide shows you how to build that practice at each organizational level.
 
-## What Are Operational Reviews?
-Operational Reviews are a series of regularly scheduled activities that offer Engineering, IT, and Operations leaders the opportunity to understand the impact of their real-time digital operations on business outcomes.
+## Who Is This For?
+This guide is for digital business leaders who want to create a cohesive strategy around capturing metrics that both quantify and drive organizational change. If you’re driving the adoption of DevOps principles, guiding a digital transformation, or driving greater operational maturity—as a team manager, department/division leader, or an executive—then these docs are for you.
 
-Operational Reviews are metric-driven activities, preferring quantitative data ahead of qualitative. That data, along with the analysis and discussion among those involved, is meant to highlight the impact of technical service operations on key facets of a digital organization; namely people, costs to the business, and customers.
+Anyone who is part of a technical team that manages real-time operations (for example, a digital service that may experience [unplanned incidents](https://response.pagerduty.com)) will also find this documentation useful, including software [engineers who go on call](https://ownership.pagerduty.com), technical program managers, [agile coaches](https://retrospectives.pagerduty.com), or anyone else whose job involves leading change and implementing effective processes. Ultimately, we encourage you to share this documentation with all of your teams rather than siloing this information or letting it live solely in the realm of management. Driving organizational change requires transparency, autonomy, accountability, and—above all—knowledge-sharing.
 
-The documentation that follows here offers a guide for how to run regular Operational Reviews in your digital organization, including the impact of running operational reviews, what to review and when, who to involve, what data you’ll need, and even how to run meetings.
+## What Is Covered?
+### What Are Operational Reviews?
+Operational reviews are the practice of regularly gathering metrics with your teams, in a cohesive way across your organization, to drive positive business outcomes. When transforming digital practices, many organizations struggle to quantify and measure their progress in meaningful ways. By gathering and learning from metrics on a regular basis at every organizational level—practitioner, management, and executive—teams can make better data-driven decisions around improving work in ways that align daily practices with long-term business results. 
 
-!!!info ""
-    Not all of the guidance provided here will be applicable for every organization, and varying levels of digital operations maturity will impact how hard or easy it is to follow this guide. The intent of this documentation is not to prescribe a one-size-fits all approach to running operational reviews, but rather to provide a framework for any digital organization to adopt and make their own, and allowing them to refine, expand, and improve the review process as the organization's operational maturity increases.
+### On-Call Review
+At the practitioner level, this review happens directly with responders that run your real-time operations and helps you catch any problems before they become trends or contribute to significant negative impact. 
 
-## Why Conduct Operational Reviews?
-Why spend the time and effort to run operational reviews? It all comes down to business impact. You likely don’t run your organization on the principles of DevOps just because everyone else does; you do it so you can deliver better business outcomes through more autonomy and better-quality work. Simply put, running a digital business means that the smallest issues or inefficiencies can have outsized impact on your business.
+* [Cadence](/reviews/oncall/#cadence)
+* [Scope](/reviews/oncall/#scope)
+* [Meeting owner and attendees](/reviews/oncall/#meeting-owner-attendees)
+* [Metrics](/reviews/oncall/#metrics)
+* [Conducting the review](/reviews/oncall/#conducting-the-review)
+* [Taking action](/reviews/oncall/#taking-action)
+* [Notes and considerations](/reviews/oncall/#final-notes-considerations)
 
-Business impact and outcomes aren’t just smart-sounding words—they are real things you can optimize for. Outcomes are the impacts felt by your people, the time and employee costs your business absorbs, and the impact experienced by your customers.
+### Service Review
+At the department or division level, these reviews happen with management and they provide an opportunity to spot trends and take any necessary corrective actions before negative impacts become broader and potentially more damaging.
 
-One way to ensure that your real-time digital operations yield positive business results rather than negative business outcomes is to regularly pause, review the impact of operations on business outcomes, and align all stakeholders on how to invest in the future for better business outcomes.
+* [Cadence](/reviews/service/#cadence)
+* [Scope](/reviews/service/#scope)
+* [Meeting owner and attendees](/reviews/service/#meeting-owner-attendees)
+* [Metrics](/reviews/service/#metrics)
+* [Conducting the review](/reviews/service/#conducting-the-review)
+* [Taking action](/reviews/service/#taking-action)
+* [Notes and considerations](/reviews/service/#final-notes-considerations)
 
-Running regular operational reviews allows you to optimize for the health of your people, the costs of running your digital business, and the experience your customers have. At the speed of digital, failing to measure and understand these impacts can deliver outsized negative outcomes before you even realize it.
+### Business Review
+At the leadership level, this review helps executives identify the results of organizational transformation efforts. Typically a component of quarterly business reviews, it serves to create alignment between technical teams and leadership by highlighting investments or initiatives that are needed to help achieve desired business outcomes.
 
-Don’t just take our word for it. The data shows it’s true. Research done by PagerDuty on digital operations maturity shows that improving operations leads to measurable impact. For example, digital organizations that model highly mature behaviors acknowledge incidents 7 minutes faster, mobilize respondents 11 minutes faster, and resolve incidents a full 2 hours faster than their immature peers. At an average of 7 major incidents per month, this adds up to at least 14 hours less downtime each month. Those results have a significant impact on people, too. Those same highly mature organizations experience a 21% lower employee attrition rate among their on-call responders.
+* [Cadence](/reviews/business/#cadence)
+* [Scope](/reviews/business/#scope)
+* [Meeting owner and attendees](/reviews/business/#meeting-owner-attendees)
+* [Metrics](/reviews/business/#metrics)
+* [Conducting the review](/reviews/business/#conducting-the-review)
+* [Taking action](/reviews/business/#taking-action)
+* [Notes and considerations](/reviews/business/#final-notes-considerations)
 
-If you are convinced that digital operations have major impact on business outcomes, and you want to start optimizing by putting a process for operational reviews in place, the below documentation will help you get started.
+### Definitions
+A [glossary of terms](/definitions) used throughout this guide.
 
-## Getting Started
+### Next Steps
+Although the above practices are effective on any platform, it can help to see how these concepts are applied in practice. This section shows how [PagerDuty](https://pagerduty.com) can be used to practice the steps recommended in this guide.
 
-Highly mature digital organizations run a variety of reviews, and they look different at every company. However, there is a common set of reviews that the most mature organizations all tend to conduct. Each of them aligns with a specific layer of organization management, covers an intentional timeframe and information scope, and seeks to answer a short, specific list of questions. These three reviews work together to create focus and alignment across the organization on how operations impact business outcomes.
+### Additional Resources
+Links to [additional reading](/resources) to help you get started with operational reviews.
 
-The three commonly shared reviews at digital organizations are: a [weekly on-call review](/reviews/oncall.md), a [monthly service review](reviews/service.md), and a [quarterly business review](reviews/business.md). The timing of these reviews is deliberate and common. It’s hard to understand the impact of large investments or initiatives until weeks or months have passed, while understanding the impact of on-call on your people requires fresh information and perspective week in and week out.
+## License
+This documentation is provided under the Apache License 2.0. In plain English, that means you can use and modify this documentation and use it both commercially and for private use. However, you must include any original copyright notices and the original LICENSE file.
 
-!!!tip ""
-    If you come across any words you don’t recognize at any point in our guides, take a look at the [definitions section](/definitions.md).
+Whether you are a PagerDuty customer or not, we want you to have the ability to use this documentation internally at your own company. You can view the source code for all of [this documentation](https://github.com/PagerDuty/operational-review-docs) on our [GitHub account](https://github.com/PagerDuty/); feel free to fork the repository and use it as a base for your own internal documentation.
