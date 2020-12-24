@@ -1,5 +1,4 @@
-![Definitions](../assets/img/headers/definitions.jpg)
-*Credit: [Pixabay @ Pexels](https://www.pexels.com/photo/blur-book-close-up-data-270233/)*
+![Definitions](../assets/img/headers/OpsReviews-Definitions.png)
 
 This documentation uses terms common in digital businesses, but not always standard across organizations. Definitions are provided below for how they are used in this documentation.
 
@@ -25,7 +24,7 @@ An escalation is when the primary on-call does not acknowledge an incident and t
 
 **Full-Service Ownership (FSO)**
 
-Full-service ownership (FSO) is the philosophy that engineers are responsible for the code and services they create in production. Accountability, reliability, and continuous improvement are the main objectives of full-service ownership. 
+Full-service ownership (FSO) is the philosophy that engineers are responsible for the code and services they create in production. Accountability, reliability, and continuous improvement are the main objectives of full-service ownership.
 
 **High-Urgency Incident**
 

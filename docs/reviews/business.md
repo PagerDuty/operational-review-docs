@@ -1,5 +1,4 @@
-![Business Review](../assets/img/headers/business-review.jpg)
-*Credit: [rawpixel.com @ Pexels](https://www.pexels.com/photo/two-person-shaking-each-others-hands-872957/)*
+![Business Review](../assets/img/headers/OpsReviews-Business.png)
 
 Once your organization is consistently conducting On-Call Reviews and Service Reviews, that data can be used to conduct Business Reviews at the senior leadership level. For an organization to navigate a digital transformation initiative successfully, it’s necessary to examine if current investments are paying their desired dividends.
 
@@ -78,5 +77,3 @@ The Business Review is different from the other operational reviews in a notable
 It may not be possible for your teams to have this data readily available when you first start running Business Reviews. It may also be initially difficult to have impact metrics that are well aligned with business services (your revenue generating or key customer experiences). In practice, only the highest-maturity digital organizations achieve that level of alignment between sales/customer impact and service operations. It may take your organization a bit of time to get to that level. But it is possible and you can do it!
 
 Again, if your organization is conducting On-Call Reviews and Service Reviews, there should be few to no surprises in this meeting. One of the goals of running operational reviews at different levels of the organization is to create alignment across all leaders on the impact of operations on business outcomes. Many of the attendees of this review will be leaders of their own monthly service reviews, of which some attendees will be sponsors of their own on-call reviews.
-
-

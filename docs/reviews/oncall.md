@@ -1,4 +1,4 @@
-![PagerDuty](../assets/img/headers/oncall.png)
+![PagerDuty](../assets/img/headers/OpsReviews-OnCall.png)
 
 The first and most foundational operational review is the On-Call Review. This is an opportunity to learn directly from the responders that run your digital operations and catch problems before they become trends or contribute significant negative impact.
 
@@ -43,7 +43,7 @@ This 30-ish minute meeting should be rather short and highly focused. Generally 
 1. Surface and discuss any incidents that remain open and under active investigation
      * What does the incoming on-call responder need to know and how can they help resolve that issue if it recurs?
 1. Ask if any new monitoring alerts were created by the prior on-call responder, then review those alerts and ensure that the proper response actions are documented
-1. Use most of the remaining time to talk through incidents that were addressed and closed during the past shift to determine: 
+1. Use most of the remaining time to talk through incidents that were addressed and closed during the past shift to determine:
      * Whether any of these incidents require more follow up work
      * How the incoming on-call responder can help complete that follow-up work
      * Whether any of these incidents unactionable and how monitoring can be changed to avoid that unactionable situation in the future
@@ -74,5 +74,3 @@ Effectively running this review (and all Operational Reviews) requires adopting 
 If one of your responders experienced a particularly painful on-call shift, there is something you can do about it! Compassion and gratitude go a long way. Let them know that you understand what they had to deal with. Consider thanking them in front of the rest of your team, department, or company. If it was a particularly bad shift, you might send a small gift or even offer comp time off work. At the very least, you can adjust the upcoming on-call schedule to make sure they get a break before having to deal with a heavy on-call load again.
 
 However, the best thing you can do for the long-term is committing to making investments that will improve service reliability, processes, and tools that improve on-call life for your teams.
-
-
