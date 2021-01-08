@@ -17,7 +17,7 @@ The metrics and discussion at the meeting should include all technical services 
 
 Similar to On-Call Reviews, each Service Review should cover the time period since the last meeting (ideally one month).
 
-## Meeting Owner & Attendees
+## Meeting Owner and Attendees
 This review is typically organized and led by a departmental or divisional leader, usually a Director or Vice President of Engineering, IT, or Operations. Driving this meeting from the senior management level not only ensures participation, it offers a commitment by senior management to take action and follow through with changes to investments into service operations.
 
 At small and medium-sized organizations, the review meeting is called, set up, and run by the department/division head themselves. They are typically supported by any data analysts, program managers, or administrative assistants relevant to their projects. At larger organizations, the Service Review may be sponsored by the Office of the CIO or Office of the CTO, with program managers from those offices running or assisting in the running of these reviews with each department or division.
@@ -47,7 +47,7 @@ While longer than the On-Call Review meeting, the Service Review is still a high
 1. Distribute Service Review metric reports to all attendees ahead of time (this provides an opportunity to pre-read and collect any supplemental information that may be helpful)
 1. Review top-line, summary metrics that cover the entire division or department
 1. Review business service–level metrics to understand customer impact
-     * Use the same metrics as the top-level, but scoped to business services
+     * Use the same metrics as the top level, but scoped to business services
 1. Review metrics and incident trends for technical services that had the greatest impact on underperforming business service metrics
 1. Walk through all of the top major incidents for technical services that had the most business service impact
      * Focus on contributing factors, duration, the postmortem, and status of follow-up items
@@ -73,8 +73,8 @@ Next, you’ll need to determine the type of investment a technical service requ
 Whatever the required action, make sure you can tie the effort back to optimizing for business outcomes by providing clarity over how it impacts customer availability of your digital services.
 
 
-## Final Notes & Considerations
-Hopefully, you’re starting to see that the monthly Service Review and the weekly On-Call Review are symbiotic.
+## Final Notes and Considerations
+Hopefully, you’re starting to see that the monthly Service Review and the weekly On-Call Review are symbiotic. 
 
 If your teams are conducting On-Call Reviews, there should be no surprises about what services are in need of attention. If you are an attendee of the Service Review meeting, it would be a good idea to read summaries of your team’s on-call load/pain over the past month in preparation for this meeting. Ask your teams to share their On-Call Review metrics with you.
 

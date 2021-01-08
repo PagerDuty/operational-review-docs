@@ -349,7 +349,7 @@ ul, ol {
 
 /* Don't overflow horizontally on nav */
 .drawer .toc ul li a {
-	white-space: nowrap;
+	white-space: normal;
 	text-overflow: ellipsis;
 }
 

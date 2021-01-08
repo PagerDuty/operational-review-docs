@@ -14,7 +14,7 @@ Reviews should be conducted for individual service teams and consist primarily o
 
 The review should cover the time since the last review and focus on how the service(s) that team is responsible for operated and the impact that had for the responder on-call during that time frame. If the team was severely impacted by issues with a service owned by a different team, it may require the other team’s participation as well.
 
-## Meeting Owner & Attendees
+## Meeting Owner and Attendees
 On-Call Reviews are typically instituted and managed by a team manager. However, if the review coincides with the changing of a shift schedule, the meeting is often run by the on-call responder whose shift is ending. This person is not only the best person to transfer knowledge from themselves to another, they are also the right person to provide incident and source service context to the team manager.
 
 The role of the team manager during the meeting is typically to ask probing questions, spot trends others may have missed, and collect information that needs to be shared with other teams or up the management chain.
@@ -68,7 +68,7 @@ More than likely, your team will walk away with actions that can be taken. The n
 
 Common areas of action might include items like tuning monitoring thresholds to reduce the number of unactionable incidents, updating runbooks with new information needed to more quickly resolve incidents, or recommending investments in technical services to improve reliability.
 
-## Final Notes & Considerations
+## Final Notes and Considerations
 Effectively running this review (and all Operational Reviews) requires adopting a [blameless approach](https://postmortems.pagerduty.com). The purpose of this meeting is NOT to judge the performance of any one team or individual; rather, the goal is to surface issues and increase shared understanding without placing blame, casting judgment, or causing any behavior that hinders transparency.
 
 If one of your responders experienced a particularly painful on-call shift, there is something you can do about it! Compassion and gratitude go a long way. Let them know that you understand what they had to deal with. Consider thanking them in front of the rest of your team, department, or company. If it was a particularly bad shift, you might send a small gift or even offer comp time off work. At the very least, you can adjust the upcoming on-call schedule to make sure they get a break before having to deal with a heavy on-call load again.
