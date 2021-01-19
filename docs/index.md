@@ -1,4 +1,4 @@
-![Operational Reviews](./assets/img/headers/reviews.jpg)
+![Operational Reviews](../assets/img/headers/OpsReviews-Title.png)
 
 Operational reviews are the practice of regularly gathering metrics with your teams, in a cohesive way across your organization, to drive positive business outcomes. When transforming digital practices, many organizations struggle to quantify and measure their progress in meaningful ways. By gathering and learning from metrics on a regular cadence at every organizational level—practitioner, management, and executive—teams can make better data-driven decisions around improving work in ways that align daily practices with long-term business results. This guide shows you how to build that practice at each organizational level.
 
@@ -9,10 +9,10 @@ Anyone who is part of a technical team that manages real-time operations (for ex
 
 ## What Is Covered?
 ### What Are Operational Reviews?
-Operational reviews are the practice of regularly gathering metrics with your teams, in a cohesive way across your organization, to drive positive business outcomes. When transforming digital practices, many organizations struggle to quantify and measure their progress in meaningful ways. By gathering and learning from metrics on a regular basis at every organizational level—practitioner, management, and executive—teams can make better data-driven decisions around improving work in ways that align daily practices with long-term business results. 
+Operational reviews are the practice of regularly gathering metrics with your teams, in a cohesive way across your organization, to drive positive business outcomes. When transforming digital practices, many organizations struggle to quantify and measure their progress in meaningful ways. By gathering and learning from metrics on a regular basis at every organizational level—practitioner, management, and executive—teams can make better data-driven decisions around improving work in ways that align daily practices with long-term business results.
 
 ### On-Call Review
-At the practitioner level, this review happens directly with responders that run your real-time operations and helps you catch any problems before they become trends or contribute to significant negative impact. 
+At the practitioner level, this review happens directly with responders that run your real-time operations and helps you catch any problems before they become trends or contribute to significant negative impact.
 
 * [Cadence](/reviews/oncall/#cadence)
 * [Scope](/reviews/oncall/#scope)

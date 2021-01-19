@@ -1,4 +1,4 @@
-![PagerDuty](../assets/img/headers/oncall.png)
+![PagerDuty](../assets/img/headers/OpsReviews-OnCall.png)
 
 The first and most foundational operational review is the On-Call Review. This is an opportunity to learn directly from the responders that run your digital operations and catch problems before they become trends or contribute significant negative impact.
 
@@ -14,7 +14,7 @@ Reviews should be conducted for individual service teams and consist primarily o
 
 The review should cover the time since the last review and focus on how the service(s) that team is responsible for operated and the impact that had for the responder on-call during that time frame. If the team was severely impacted by issues with a service owned by a different team, it may require the other team’s participation as well.
 
-## Meeting Owner & Attendees
+## Meeting Owner and Attendees
 On-Call Reviews are typically instituted and managed by a team manager. However, if the review coincides with the changing of a shift schedule, the meeting is often run by the on-call responder whose shift is ending. This person is not only the best person to transfer knowledge from themselves to another, they are also the right person to provide incident and source service context to the team manager.
 
 The role of the team manager during the meeting is typically to ask probing questions, spot trends others may have missed, and collect information that needs to be shared with other teams or up the management chain.
@@ -43,7 +43,7 @@ This 30-ish minute meeting should be rather short and highly focused. Generally 
 1. Surface and discuss any incidents that remain open and under active investigation
      * What does the incoming on-call responder need to know and how can they help resolve that issue if it recurs?
 1. Ask if any new monitoring alerts were created by the prior on-call responder, then review those alerts and ensure that the proper response actions are documented
-1. Use most of the remaining time to talk through incidents that were addressed and closed during the past shift to determine: 
+1. Use most of the remaining time to talk through incidents that were addressed and closed during the past shift to determine:
      * Whether any of these incidents require more follow up work
      * How the incoming on-call responder can help complete that follow-up work
      * Whether any of these incidents unactionable and how monitoring can be changed to avoid that unactionable situation in the future
@@ -68,11 +68,9 @@ More than likely, your team will walk away with actions that can be taken. The n
 
 Common areas of action might include items like tuning monitoring thresholds to reduce the number of unactionable incidents, updating runbooks with new information needed to more quickly resolve incidents, or recommending investments in technical services to improve reliability.
 
-## Final Notes & Considerations
+## Final Notes and Considerations
 Effectively running this review (and all Operational Reviews) requires adopting a [blameless approach](https://postmortems.pagerduty.com). The purpose of this meeting is NOT to judge the performance of any one team or individual; rather, the goal is to surface issues and increase shared understanding without placing blame, casting judgment, or causing any behavior that hinders transparency.
 
 If one of your responders experienced a particularly painful on-call shift, there is something you can do about it! Compassion and gratitude go a long way. Let them know that you understand what they had to deal with. Consider thanking them in front of the rest of your team, department, or company. If it was a particularly bad shift, you might send a small gift or even offer comp time off work. At the very least, you can adjust the upcoming on-call schedule to make sure they get a break before having to deal with a heavy on-call load again.
 
 However, the best thing you can do for the long-term is committing to making investments that will improve service reliability, processes, and tools that improve on-call life for your teams.
-
-

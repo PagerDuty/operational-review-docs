@@ -1,4 +1,4 @@
-![Using PagerDuty](./assets/img/headers/occ.jpg)
+![Using PagerDuty](../assets/img/headers/OpsReviews-NextSteps.png)
 
 Although the above practices are effective regardless of any platform, it can help to see how these concepts are applied in practice. This section shows how [PagerDuty](https://pagerduty.com) can be used to practice the steps recommended in this guide.
 

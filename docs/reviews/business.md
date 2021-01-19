@@ -1,5 +1,4 @@
-![Business Review](../assets/img/headers/business-review.jpg)
-*Credit: [rawpixel.com @ Pexels](https://www.pexels.com/photo/two-person-shaking-each-others-hands-872957/)*
+![Business Review](../assets/img/headers/OpsReviews-Business.png)
 
 Once your organization is consistently conducting On-Call Reviews and Service Reviews, that data can be used to conduct Business Reviews at the senior leadership level. For an organization to navigate a digital transformation initiative successfully, it’s necessary to examine if current investments are paying their desired dividends.
 
@@ -16,7 +15,7 @@ While the On-Call and Service Reviews had specific scope to certain teams, servi
 
 This review should cover all operations since the last Business Review, ideally the last 3 months. It requires a significant investment of time and focus. For many organizations, a half-day may be required. For the largest organizations, a full day or more may be required while smaller organizations may find that a few hours will suffice.
 
-## Meeting Owner & Attendees
+## Meeting Owner and Attendees
 An effective Business Review focuses on impact to the business and investment into better future business outcomes, from a technical perspective. We recommend that this review be sponsored by the CIO, CTO, or the most senior technology leader within the organization. The meeting should be owned and run by this person, but they will also need the organizational and administrative support of many others, including department heads, program managers, analysts, and executive assistants, to ensure the meeting is effective.
 
 The review meeting can be quite large. It’s not uncommon for this meeting to have one to two dozen participants at many companies. All department or divisional leaders across Engineering, IT, and Operations (such as most Directors and Vice Presidents) should be attending. Additional attendees often include the CISO, the CEO, and Product Management leadership. For companies with technology products at their core or for smaller organizations, it is common for non-technical executives like the CEO, COO, and CFO to attend. In larger organizations and/or those that are less technologically centered, attendance from non–technical executives is less common.
@@ -72,11 +71,9 @@ Investment can be made many different ways, but they tend to apply to either peo
 Whatever actions are identified during your Business Reviews, it is important that you align them each with one of the three business impacts: people, business costs, and customer impact. Finally, set goals and define how you’ll measure achievement of those goals.
 
 
-## Final Notes & Considerations
+## Final Notes and Considerations
 The Business Review is different from the other operational reviews in a notable way: It relies heavily on the concept of [business services](https://support.pagerduty.com/docs/business-services) and impact metrics that directly measure the results of incidents and operations on customers and top-line revenues.
 
 It may not be possible for your teams to have this data readily available when you first start running Business Reviews. It may also be initially difficult to have impact metrics that are well aligned with business services (your revenue generating or key customer experiences). In practice, only the highest-maturity digital organizations achieve that level of alignment between sales/customer impact and service operations. It may take your organization a bit of time to get to that level. But it is possible and you can do it!
 
 Again, if your organization is conducting On-Call Reviews and Service Reviews, there should be few to no surprises in this meeting. One of the goals of running operational reviews at different levels of the organization is to create alignment across all leaders on the impact of operations on business outcomes. Many of the attendees of this review will be leaders of their own monthly service reviews, of which some attendees will be sponsors of their own on-call reviews.
-
-

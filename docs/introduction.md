@@ -1,9 +1,11 @@
+![Introduction](../assets/img/headers/OpsReviews-Intro.png)
+
 > "Tell me how you measure me and I will tell you how I will behave. If you measure me in an illogical way … do not complain about illogical behavior.” -- [Eliyahu Goldratt](https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt)
 
 Fundamentally changing how people work is hard. Metrics are useful to drive desired behaviors, but they can also be easily gamed. Without a comprehensive strategy to connect daily work habits to overall business outcomes, most organizations will fail to drive the types of change necessary to survive in today’s competitive marketplace.
 
 ## Why Metrics Are Difficult to Get Right
-Operational maturity doesn’t happen overnight—it takes continued commitment, focus, learning, and practice. According to IDC, on average, 3.7% of an enterprise organization’s revenue is spent on digital transformation initiatives[]. The goals of transformation initiatives typically include outcomes like [achieving greater profitability and market share](https://services.google.com/fh/files/misc/state-of-devops-2019.pdf) by becoming faster, more nimble, and a more secure organization that can better serve the needs of demanding customers in today’s competitive marketplace. To achieve that, organizational transformation initiatives typically require very large investments, long-term strategy, and executive support.
+Operational maturity doesn’t happen overnight—it takes continued commitment, focus, learning, and practice. According to IDC, on average, 3.7% of an enterprise organization’s revenue is spent on digital transformation initiatives[]. The goals of transformation initiatives typically include outcomes like [achieving greater profitability and market share](https://services.google.com/fh/files/misc/state-of-devops-2019.pdf) by becoming a faster, more nimble, and more secure organization that can better serve the needs of demanding customers in today’s competitive marketplace. To achieve that, organizational transformation initiatives typically require very large investments, long-term strategy, and executive support.
 
 Creating high-performance teams by adopting modern software delivery and operational practices often requires reorganizing technical teams,  training them to work with new technologies that have different workflows, and changing existing processes. Adjusting to these changes can be tough and time consuming as teams figure out how to modernize their practices. At the same time, executive sponsors want to see quantifiable results. That creates pressure on managers to figure out a way to quantify something as intangible as whether a team is improving their technical aptitude.
 
@@ -25,7 +27,7 @@ When undergoing digital transformation, one way to ensure that your teams are he
 Operational reviews help you track metrics that indicate what’s happening at the technical team level on a daily basis, tie those metrics to the scope and impact they have on the business on a monthly basis, and use that to determine which investments into technical service reliability and process improvements can help the business reach its goals.
 
 ## Getting Started
-The process in this guide is the result of PagerDuty’s ability to work with more than 10,000 customers that represent all different types of digital businesses and demonstrate various levels of real-time operational maturity. Through those relationships and interactions, we learned a few things. 
+The process in this guide is the result of PagerDuty’s work with more than 10,000 customers that represent all different types of digital businesses and demonstrate various levels of real-time operational maturity. Through those relationships and interactions, we learned a few things. 
 
 First, we learned that the most mature digital organizations run regular operational reviews to align leadership on the right investments to make in technology operations to deliver successful business outcomes. Next, as we practiced this and shared our findings with customers, we were asked for guidance to share what we do and what our most mature customers do. Last, many of our internal projects have shown us there are clear and quantifiable ways to drive the transformation of real-time operations.
 
