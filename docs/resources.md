@@ -12,4 +12,4 @@
 - [Digital Operations Maturity Model](https://www.pagerduty.com/ops-maturity-model) (PagerDuty)
 - [Operations Health Management](https://www.pagerduty.com/blog/operations-health/) (PagerDuty)
 - [Service Level Objectives](https://landing.google.com/sre/sre-book/chapters/service-level-objectives/) (Google SRE Book)
-- [Leaning on Digital Transformation Investments to Meet the Challenges of the COVID-19 Pandemic](https://www.idc.com/getdoc.jsp?containerId=US46201920)
+- [Leaning on Digital Transformation Investments to Meet the Challenges of the COVID-19 Pandemic](https://www.idc.com/getdoc.jsp?containerId=US46201920) (IDC)
