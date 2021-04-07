@@ -1,4 +1,4 @@
-![Service Review](../assets/img/headers/OpsReviews-Service.png)
+![Service Review](/assets/images/headers/OpsReviews-Service.png)
 
 Once your organization is consistently conducting On-Call Reviews, that data can be used to conduct Service Reviews at the department or division level. These reviews are an opportunity for management to spot trends and make necessary course corrections before negative impacts become broader and potentially more damaging.
 
@@ -74,7 +74,7 @@ Whatever the required action, make sure you can tie the effort back to optimizin
 
 
 ## Final Notes and Considerations
-Hopefully, you’re starting to see that the monthly Service Review and the weekly On-Call Review are symbiotic. 
+Hopefully, you’re starting to see that the monthly Service Review and the weekly On-Call Review are symbiotic.
 
 If your teams are conducting On-Call Reviews, there should be no surprises about what services are in need of attention. If you are an attendee of the Service Review meeting, it would be a good idea to read summaries of your team’s on-call load/pain over the past month in preparation for this meeting. Ask your teams to share their On-Call Review metrics with you.
 
