@@ -1,4 +1,4 @@
-![Using PagerDuty](../assets/img/headers/OpsReviews-NextSteps.png)
+![Using PagerDuty](/assets/images/headers/OpsReviews-NextSteps.png)
 
 Although the above practices are effective regardless of any platform, it can help to see how these concepts are applied in practice. This section shows how [PagerDuty](https://pagerduty.com) can be used to practice the steps recommended in this guide.
 
@@ -10,7 +10,7 @@ If you are one of the more than 10,000 companies across the globe that uses Page
 ## PagerDuty Analytics
 [PagerDuty Analytics](https://www.pagerduty.com/features/analytics) offers a feature called Operational Review Analytics. This feature was designed to be a companion to this Operational Review Documentation and align directly to the three most common operational reviews run at digital businesses by providing a rich and prescriptive set of analytic capabilities. Three reports are accessible in the PagerDuty web application, which can be customized by adjusting the timeframe of the reports, as well as the Team, Service, and/or Organization scope. Additionally, these reports can be scheduled for delivery to your email inbox.
 
-![PagerDuty Analytics](../assets/img/product/pd-analytics.png)
+![PagerDuty Analytics](/assets/images/product/pd-analytics.png)
 
 ## PagerDuty Platform Reporting
 Even if you are not yet using the PagerDuty Analytics product, you can still find a wealth of information and metrics within the [PagerDuty platform](https://www.pagerduty.com/features/#advanced-analytics). PagerDuty Analytics offers up to five distinct reports, surfacing every incident and alert, along with basic metrics across the system, teams, users, and escalation policies. Report availability depends on your PagerDuty platform license type.

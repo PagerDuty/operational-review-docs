@@ -1,4 +1,4 @@
-![Operational Reviews](../assets/img/headers/OpsReviews-Title.png)
+![Operational Reviews](/assets/images/headers/OpsReviews-Title.png)
 
 Operational reviews are the practice of regularly gathering metrics with your teams, in a cohesive way across your organization, to drive positive business outcomes. When transforming digital practices, many organizations struggle to quantify and measure their progress in meaningful ways. By gathering and learning from metrics on a regular cadence at every organizational level—practitioner, management, and executive—teams can make better data-driven decisions around improving work in ways that align daily practices with long-term business results. This guide shows you how to build that practice at each organizational level.
 

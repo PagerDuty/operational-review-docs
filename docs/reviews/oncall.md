@@ -1,4 +1,4 @@
-![PagerDuty](../assets/img/headers/OpsReviews-OnCall.png)
+![PagerDuty](/assets/images/headers/OpsReviews-OnCall.png)
 
 The first and most foundational operational review is the On-Call Review. This is an opportunity to learn directly from the responders that run your digital operations and catch problems before they become trends or contribute significant negative impact.
 

@@ -1,4 +1,4 @@
-![Definitions](../assets/img/headers/OpsReviews-Definitions.png)
+![Definitions](/assets/images/headers/OpsReviews-Definitions.png)
 
 This documentation uses terms common in digital businesses, but not always standard across organizations. Definitions are provided below for how they are used in this documentation.
 

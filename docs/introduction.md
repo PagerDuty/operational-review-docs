@@ -1,4 +1,4 @@
-![Introduction](../assets/img/headers/OpsReviews-Intro.png)
+![Introduction](/assets/images/headers/OpsReviews-Intro.png)
 
 > "Tell me how you measure me and I will tell you how I will behave. If you measure me in an illogical way … do not complain about illogical behavior.” -- [Eliyahu Goldratt](https://en.wikipedia.org/wiki/Eliyahu_M._Goldratt)
 
@@ -27,7 +27,7 @@ When undergoing digital transformation, one way to ensure that your teams are he
 Operational reviews help you track metrics that indicate what’s happening at the technical team level on a daily basis, tie those metrics to the scope and impact they have on the business on a monthly basis, and use that to determine which investments into technical service reliability and process improvements can help the business reach its goals.
 
 ## Getting Started
-The process in this guide is the result of PagerDuty’s work with more than 10,000 customers that represent all different types of digital businesses and demonstrate various levels of real-time operational maturity. Through those relationships and interactions, we learned a few things. 
+The process in this guide is the result of PagerDuty’s work with more than 10,000 customers that represent all different types of digital businesses and demonstrate various levels of real-time operational maturity. Through those relationships and interactions, we learned a few things.
 
 First, we learned that the most mature digital organizations run regular operational reviews to align leadership on the right investments to make in technology operations to deliver successful business outcomes. Next, as we practiced this and shared our findings with customers, we were asked for guidance to share what we do and what our most mature customers do. Last, many of our internal projects have shown us there are clear and quantifiable ways to drive the transformation of real-time operations.
 

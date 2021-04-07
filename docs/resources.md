@@ -1,4 +1,4 @@
-![Going Beyond](../assets/img/headers/OpsReviews-Resources.png)
+![Going Beyond](/assets/images/headers/OpsReviews-Resources.png)
 
 ## Further Reading
 

@@ -1,4 +1,4 @@
-![Business Review](../assets/img/headers/OpsReviews-Business.png)
+![Business Review](/assets/images/headers/OpsReviews-Business.png)
 
 Once your organization is consistently conducting On-Call Reviews and Service Reviews, that data can be used to conduct Business Reviews at the senior leadership level. For an organization to navigate a digital transformation initiative successfully, it’s necessary to examine if current investments are paying their desired dividends.
 
