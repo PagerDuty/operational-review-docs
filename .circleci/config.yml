@@ -30,6 +30,10 @@ commands:
   deploy_docs:
     steps:
       - run:
+          name: Install AWS CLI
+          command: |
+            sudo pip install awscli
+      - run:
           name: Deploy to S3
           # Use --delete to remove any old files from bucket too, so we don't keep stale info around.
           command: |
