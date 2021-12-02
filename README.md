@@ -1,4 +1,4 @@
-# PagerDuty Operational Review Documentation [![Build Status](https://circleci.com/gh/PagerDuty/operational-review-docs/tree/master.svg?style=svg)](https://circleci.com/gh/PagerDuty/operational-review-docs)
+# PagerDuty Operational Review Documentation [![Netlify Status](https://api.netlify.com/api/v1/badges/a79caa0b-2d10-4137-87c9-5b55159fce8d/deploy-status)](https://app.netlify.com/sites/operational-reviews-807e73/deploys)
 This is a public version of the Operational Review framework that PagerDuty is adapting and implementing internally. It is used to ensure that PagerDuty leadership is aligned on the impact that real-time, digital operations have on our business outcomes. See the [About](/docs/about.md) page for more information.
 
 You can view the documentation [directly](/docs/index.md) in this repository, or rendered as a website at https://reviews.pagerduty.com.
